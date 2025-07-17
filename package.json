@@ -1,13 +1,28 @@
 {
   "name": "taller_npm",
   "version": "1.0.0",
-  "description": "",
-  "license": "ISC",
-  "author": "",
-  "type": "commonjs",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node main.js"
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicoleordonezc/taller_NPM.git"
+  },
+  "author": "Nicole Ordoñez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicoleordonezc/taller_NPM/issues"
+  },
+  "homepage": "https://github.com/nicoleordonezc/taller_NPM#readme",
+  "description": "",
+  "dependencies": {
+    "generador-aleatorio-palabrejas": "^1.1.0",
+    "generator-names": "^1.0.1",
+    "inquirer": "^12.7.0",
+    "unique-username-generator": "^1.4.0",
+    "weather-promise": "^2.1.0"
   }
 }
